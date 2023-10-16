@@ -34,8 +34,13 @@ Acknowledgements
 Special thanks to the following tools and libraries that made this project possible:
 
 ChatGPT by OpenAI: Assisted in various aspects of the project, from conceptualization to completion.
+
 BeautifulSoup: Used for parsing HTML and extracting data from the Whatcom County Assessor's Office website.
+
 Requests: Enabled HTTP requests for the data scraping process.
+
 Pandas: Facilitated data manipulation and analysis.
+
 Scikit-learn (sklearn): The main library behind the machine learning model, linear regression in this case.
+
 Matplotlib: Assisted in creating visualizations and graphs for data analysis.
