@@ -6,10 +6,14 @@ This project was undertaken to showcase the ability to scrape, clean, manipulate
 
 Project Highlights
 Data Scraping: Developed custom scraping scripts to gather real estate sales data directly from the Whatcom County Assessor's Office website.
+
 Data Cleaning: Managed missing data, outliers, and errors to prepare the dataset for analysis and modeling.
+
 Data Visualization: Developed informative graphs to extract and visualize insights from the data.
+
 Machine Learning: Created a linear regression model to predict real estate prices.
 Results & Limitations
+
 The current model has a Mean Absolute Error (MAE) of $500,000. This means that, on average, the model's predictions are off by a margin of $500k. This limitation arises primarily due to the constraints in the available data features. Attributes such as bedroom count, bathroom count, living square footage, and acreage were not available in the dataset, which are pivotal in predicting real estate prices more accurately.
 
 Future Directions
@@ -21,6 +25,7 @@ src/: Main codebase, with scripts for scraping, preprocessing, and modeling.
 notebooks/: Jupyter notebooks used for exploratory data analysis.
 models/: Trained linear regression model.
 output/: Graphs and visualizations generated from the dataset.
+
 Acknowledgements
 Special thanks to the following tools and libraries that made this project possible:
 
