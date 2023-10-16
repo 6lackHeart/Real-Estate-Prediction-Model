@@ -24,9 +24,13 @@ The current project serves as a demonstration of foundational data science and m
 Project Structure
 
 data/: Contains datasets used in this project.
+
 src/: Main codebase, with scripts for scraping, preprocessing, and modeling.
+
 notebooks/: Jupyter notebooks used for exploratory data analysis.
+
 models/: Trained linear regression model.
+
 output/: Graphs and visualizations generated from the dataset.
 
 Acknowledgements
